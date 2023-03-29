@@ -1,8 +1,10 @@
 <?php
+namespace HearlandTechie\SermonSeries\Model;
+
 
 use SilverStripe\ORM\DataObject;
 
-class Series extends DataObject 
+class Series extends DataObject
 {
     private static $db = [
         'SeriesNumber' => 'Int',
