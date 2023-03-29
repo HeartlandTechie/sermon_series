@@ -17,6 +17,7 @@ use SilverStripe\Forms\TabSet;
 
 class Series extends DataObject
 {
+    private static $table_name = 'Series';
     private static $db = [
         'SeriesNumber' => 'Int',
         'SeriesName' => 'Varchar(255)',
