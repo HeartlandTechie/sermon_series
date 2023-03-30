@@ -9,6 +9,7 @@ use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\Forms\CurrencyField;
 use SilverStripe\Forms\CheckboxField;
+use SilverStripe\Forms\DateField;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\ORM\ArrayLib;
 use SilverStripe\Assets\Image;
@@ -30,10 +31,16 @@ class Series extends DataObject
         $fields = FieldList::create(TabSet::create('Root'));
         $fields->addFieldsToTab('Root.Main', [
             TextField::create('SeriesName'),
+            DateField::create('DateBegins'),
 
 
         ]);
 
         return $fields;
     }
+
+    private static $summary_fields = [
+        'SeriesName' => 'Series Name',
+
+    ];
 }
