@@ -5,7 +5,7 @@ use HearlandTechie\SermonSeries\Model\Sermon;
 use SilverStripe\Admin\ModelAdmin;
 use HearlandTechie\SermonSeries\Model\Series;
 
-class SeriesAdmin extends ModelAdmin
+class SermonAdmin extends ModelAdmin
 {
 
 private static $menu_title = 'Sermons';
