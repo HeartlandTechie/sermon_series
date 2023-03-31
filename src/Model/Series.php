@@ -34,9 +34,16 @@ class Series extends DataObject
         $fields->addFieldsToTab('Root.Main', [
             TextField::create('SeriesName'),
             DateField::create('DateBegins'),
-
-
         ]);
+
+            $fields->addFieldToTab('Root.Sermons', GridField::create(
+                'Sermons',
+                'Sermons',
+                $this->Sermons(),
+                GridFieldConfig_RecordEditor::create()
+            ));
+
+
 
         return $fields;
     }
