@@ -19,6 +19,7 @@ use SilverStripe\Forms\TabSet;
 class Sermon extends DataObject
 {
     private static $table_name = 'Sermon';
+
     private static $db = [
         'Title' => 'Varchar(255)',
         'Description' => 'Text',
