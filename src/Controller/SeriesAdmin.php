@@ -9,6 +9,7 @@ class SeriesAdmin extends ModelAdmin
 
 private static $menu_title = 'Series';
 
+private static $plural_name = 'Series';
 private static $url_segment = 'series';
 
 private static $managed_models = [
