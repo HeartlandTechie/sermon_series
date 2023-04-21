@@ -13,6 +13,7 @@ class SeriesPageController extends PageController
     public function test()
     {
         die('it works');
+
     }
 
 }
