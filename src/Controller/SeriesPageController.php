@@ -15,5 +15,4 @@ class SeriesPageController extends PageController
         die('it works');
 
     }
-
 }
