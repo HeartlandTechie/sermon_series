@@ -1,5 +1,5 @@
 <?php
-namespace HearlandTechie\SermonSeries\Controller;
+namespace HearlandTechie\SermonSeries;
 
 
 use PageController;
