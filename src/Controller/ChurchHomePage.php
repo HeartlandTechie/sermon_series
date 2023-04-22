@@ -3,7 +3,7 @@ namespace HearlandTechie\SermonSeries;
 
 use Page;
 
-class HomePage extends Page
+class ChurchHomePage extends Page
 {
 
 }
