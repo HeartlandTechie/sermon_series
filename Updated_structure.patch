@@ -1,0 +1,30 @@
+Subject: [PATCH] Updated structure
+---
+Index: src/Controller/SeriesPage.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Controller/SeriesPage.php b/src/Controller/SeriesPage.php
+--- a/src/Controller/SeriesPage.php	(revision 48c71cb234a1028304130a3d6498c8b076255f0c)
++++ b/src/Controller/SeriesPage.php	(date 1682134051839)
+@@ -1,4 +1,4 @@
+-<?
++<?php
+ namespace HearlandTechie\SermonSeries;
+ 
+ use Page;
+Index: src/Controller/SeriesPageController.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Controller/SeriesPageController.php b/src/Controller/SeriesPageController.php
+--- a/src/Controller/SeriesPageController.php	(revision 48c71cb234a1028304130a3d6498c8b076255f0c)
++++ b/src/Controller/SeriesPageController.php	(date 1682134051836)
+@@ -1,4 +1,4 @@
+-<?
++<?php
+ namespace HearlandTechie\SermonSeries;
+ 
+ use PageController;
