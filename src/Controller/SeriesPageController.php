@@ -7,7 +7,7 @@ class SeriesPageController extends PageController
 {
 
     private static $allowed_actions = [
-        'test'
+        'testing'
     ];
 
     public function test()
