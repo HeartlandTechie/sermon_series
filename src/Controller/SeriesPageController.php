@@ -1,6 +1,7 @@
 <?php
 namespace HearlandTechie\SermonSeries\Controller;
 
+use HearlandTechie\SermonSeries\Model\Series;
 use PageController;
 
 class SeriesPageController extends PageController
@@ -14,5 +15,10 @@ class SeriesPageController extends PageController
     {
         die('it works');
 
+    }
+
+    public function SeriesInfo()
+    {
+        return HeartlandTechie\SermonSeries\Model\Series::get()->filter(array('FeaturedOnHomePage' => true));
     }
 }
