@@ -20,6 +20,7 @@ class Series extends DataObject
 {
     private static $table_name = 'Series';
 
+
     private static $plural_name = 'Series';
     private static $db = [
         'SeriesNumber' => 'Int',
