@@ -1,4 +1,4 @@
-<?
+<?php
 namespace HearlandTechie\SermonSeries\Controller;
 
 use PageController;
