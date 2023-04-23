@@ -1,5 +1,5 @@
 <?
-namespace HearlandTechie\SermonSeries;
+namespace HearlandTechie\SermonSeries\Controller;
 
 use PageController;
 
