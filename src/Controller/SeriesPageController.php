@@ -10,7 +10,7 @@ class SeriesPageController extends PageController
         'testing'
     ];
 
-    public function test()
+    public function testing()
     {
         die('it works');
 
