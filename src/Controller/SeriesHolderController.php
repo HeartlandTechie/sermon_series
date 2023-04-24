@@ -10,13 +10,4 @@ class SeriesHolderController extends PageController
         SeriesPage::class
     ];
 
-    private static $allowed_actions = [
-        'test'
-    ];
-
-    public function test()
-    {
-        die('it works');
-
-    }
 }
