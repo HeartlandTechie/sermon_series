@@ -1,5 +1,5 @@
 <?
-namespace HeartlandTechie\SermonSeries;
+namespace HeartlandTechie\SermonSeries\Controller;
 
 use Page;
 
