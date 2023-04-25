@@ -1,6 +1,7 @@
 <?php
 namespace HearlandTechie\SermonSeries\Controller;
 
+use PageController;
 
 class SeriesPageController extends PageController
 {
