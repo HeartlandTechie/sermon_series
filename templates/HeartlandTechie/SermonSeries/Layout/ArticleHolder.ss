@@ -12,7 +12,7 @@
                 <li><i class="fa fa-comments-o"></i> 2</li>
                 <li><i class="fa fa-tags"></i> $Title </li>
             </ul>
-            <h3><a href="blog-detail.html">How to get your dream property for the best price?</a></h3>
+            <h3><a href="$Link">$Title</a></h3>
             <p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen. Aliquam fermem tum nulla felis, sed molestie libero porttitor in.</p>
         </div>
     </div>
