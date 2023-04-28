@@ -27,9 +27,9 @@ class ArticlePage extends Page
         public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        $fields->addFieldToTab('Root.Main', DateField::create('Date','Date of article'));
-        $fields->addFieldToTab('Root.Main', TextareaField::create('Teaser'));
-        $fields->addFieldToTab('Root.Main', TextField::create('Author','Author of article'));
+        $fields->addFieldToTab('Root.Main', DateField::create('Date','Date of article'),'Content');
+        $fields->addFieldToTab('Root.Main', TextareaField::create('Teaser'),'Content');
+        $fields->addFieldToTab('Root.Main', TextField::create('Author','Author of article'),'Content');
 
         return $fields;
     }
